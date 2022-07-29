@@ -1,0 +1,169 @@
+<DOCTYPE>
+    <html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Shaun's Portfolio </title>
+    <link rel="icon" type="image/x-icon" href="img/portfolio.png">
+<style>
+    ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 18px 210.2px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #c76c12;
+}
+
+
+img:hover {
+  box-shadow: 0 0 4px 5px rgba(214, 153, 20, 0.5);
+  opacity: 0.3;
+}
+
+
+div.lambo {
+  width: 25%;
+  background-color: hwb(0 100% 0%);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+  background-color: aliceblue;
+}
+
+.column {
+  float: left;
+  width: 24.3%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+a {
+  color: hotpink;
+}
+
+a:hover {
+    color: rgb(202, 145, 39);
+}
+
+.column:hover .image {
+  opacity: 0.3;
+}
+
+.column:hover .middle {
+  opacity: 1;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  /* top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%); */
+  text-align: center;
+}
+
+.text {
+  background-color: #c76c12;
+  color: white;
+  font-size: 20px;
+  padding: 16px 32px;
+  border-radius: 20px;
+  border-style: outset;
+  border-color: rgb(255, 255, 255);
+}
+</style>
+
+</head>
+
+<body>
+    <body style="background-color:rgb(36, 37, 37);"></body>
+  <div class="Mclaren-image">
+  <ul>
+  <li><a href="photography-portfolio.html">Home</a></li>
+  <li><a href="portfolio.html">Portfolio</a></li>
+  <li><a href="contact.html">Contact</a></li>
+  <li><a class="active" href="about.html">About</a></li>
+</ul>
+  </div>
+  <br>
+  <br>
+
+  
+
+  <div class="row">
+    <div class="column">
+      <img src="img/lambo1.jpg" style="width:100%">
+      <div class="container">
+        <h2>Hi! I'm Shaun</h2>
+        <div class="middle">      
+        <div class="text">I'm here to help you showcase your exotic cars in a way that stops your audience in their tracks, makes them jubilate and want what they see. </div>
+        </div>
+      </div>
+    </div>
+    <div class="column" >
+      <img src="img/bmw1.jpg" style="width:100%">
+      <div class="container">
+        <h2>Can I help you?</h2>
+        <div class="middle">
+        <div class="text">Do you need photos of your favourite vehicle that stop the viewer from wondering about the price, because they already know they want it? 
+            With my photos I activate all of our senses, create an emotional connection with the viewer and bring up memories. My style will make you stand out and be recognizable.
+            I'm experienced creating outstanding car photography and adverts for car manufacturers and magazines. 
+            I mostly use a perfect weather to show off the beauty of your vehicle and make it stand out. </div></div>
+        </div>
+    </div>
+    <div class="column">
+        <img src="img/muscle1.jpg" alt="Forest" style="width:100%">
+        <div class="container">
+            <h2>A few words about me</h2>
+            <div class="middle">
+          <div class="text">Everytime I take a great photos of a vehicle, I always aspire to take greater photos the next time I've got a chance.
+            I have not always been a vehicle photographer, I've worked at a mechanic and studied IT as a major.
+            When I'm not taking photographys, you can find me at a café or bar chatting with a friend, cycling, running or swimming, or animating. 
+          </div>
+        </div>
+          </div>        
+      </div>
+      <div class="column">
+        <img src="img/audi1.jpg" alt="Forest" style="width:100%">
+        <div class="container">
+            <h2>Let's get in touch!</h2>
+            <div class="middle">
+          <div class="text">If you'd like to hire me, enquire about my rates or give me feedback of any kind, I'll be delighted to hear from you. </div>
+          <a href="contact.html">Click me to send a message</a>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+</body>
+</html>
